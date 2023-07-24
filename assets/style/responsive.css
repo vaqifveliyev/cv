@@ -1,0 +1,112 @@
+@media (min-width: 320px) and (max-width: 425px) {
+    
+    .container {
+        width: 100%;
+    }
+
+    .row-ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-inner {
+        column-gap: 0px !important;
+        flex-direction: column;
+    }
+
+    .header-inner .image {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .name-area {
+       column-gap: 0px !important;
+       margin-top: 20px;
+    }
+
+    .name-area h1 {
+        font-size: 16px !important;
+        text-align: center;
+    }
+
+    #sentence {
+        font-size: 12px !important;
+        text-align: center;
+    }
+
+    .certificates-section .row {
+        flex-direction: column;
+        row-gap: 10px !important;
+    }
+    
+    .certificates-section .row .card {
+        width: 100%;
+    }
+
+    .left-section p {
+        font-size: 11px !important;
+    }
+
+    .certificates-section .row .card .div-items h6 {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .certificates-section .row .card .div-items .italic {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .result {
+        font-size: 10px;
+        text-align: center;
+        width: 35%;
+    }
+
+  }
+
+  @media (min-width: 426px) and (max-width: 768px) {
+    
+    .container {
+        width: 100%;
+    }
+
+    .row-ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-inner {
+        column-gap: 10px !important;
+    }
+
+    .header-inner .image {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .name-area {
+       column-gap: 0px !important;
+       margin-top: 20px;
+    }
+
+    .name-area h1 {
+        font-size: 30px !important;
+        text-align: center;
+    }
+
+    #sentence {
+        font-size: 15px !important;
+        text-align: center;
+    }
+
+    .certificates-section .row {
+        flex-direction: column;
+        row-gap: 10px !important;
+    }
+    
+    .certificates-section .row .card {
+        width: 100%;
+    }
+
+  }
